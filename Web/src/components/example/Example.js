@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import { Button } from '@material-ui/core';
 
 class Example extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class Example extends React.Component {
     return (
       <div>
         <h1>I am in example component</h1>
+        <Button color="primary">Test of Material UI</Button>
       </div>
     );
   }
