@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankkerAPI", "..\API\Rankke
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RankkerData", "..\Database\RankkerData\RankkerData.sqlproj", "{96CCBA35-BA5F-4D76-A836-EB9A8768E89D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankkerCommon", "..\Common\RankkerCommon\RankkerCommon.csproj", "{F93F2EFB-7383-470F-9FEB-56A0894B5AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankkerCommon.Tests", "..\Common\RankkerCommon.Tests\RankkerCommon.Tests.csproj", "{87752D13-E609-4F81-8B06-68F30F7A5595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{96CCBA35-BA5F-4D76-A836-EB9A8768E89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96CCBA35-BA5F-4D76-A836-EB9A8768E89D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{96CCBA35-BA5F-4D76-A836-EB9A8768E89D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F93F2EFB-7383-470F-9FEB-56A0894B5AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93F2EFB-7383-470F-9FEB-56A0894B5AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93F2EFB-7383-470F-9FEB-56A0894B5AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93F2EFB-7383-470F-9FEB-56A0894B5AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87752D13-E609-4F81-8B06-68F30F7A5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87752D13-E609-4F81-8B06-68F30F7A5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87752D13-E609-4F81-8B06-68F30F7A5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87752D13-E609-4F81-8B06-68F30F7A5595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
