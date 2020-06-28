@@ -1,6 +1,6 @@
 ﻿using Xamarin.UITest;
 
-namespace RankkerMobile.UITests
+namespace RankkerMobile.UITests.Pages
 {
     public abstract class BasePage
     {

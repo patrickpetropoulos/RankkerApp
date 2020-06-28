@@ -1,7 +1,8 @@
 ﻿using NUnit.Framework;
+using RankkerMobile.UITests.Pages;
 using Xamarin.UITest;
 
-namespace RankkerMobile.UITests
+namespace RankkerMobile.UITests.Tests
 {
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]

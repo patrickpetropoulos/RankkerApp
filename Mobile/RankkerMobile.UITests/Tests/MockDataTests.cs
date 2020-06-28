@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Xamarin.UITest;
 
-namespace RankkerMobile.UITests
+namespace RankkerMobile.UITests.Tests
 {
     public class MockDataTests : BaseTest
     {
