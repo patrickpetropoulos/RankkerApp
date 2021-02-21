@@ -20,7 +20,7 @@ namespace RankkerAPI.Controllers
         {
             // Raises an error event:
             _logger.LogError("Index was called.");
-            return new OkObjectResult("Call Successful");
+            return new OkObjectResult("Call Successful for Patrick Final Test");
         }
     }
 }
