@@ -11,7 +11,7 @@ class Example extends React.Component {
   render() {
     return (
       <div>
-        <h1>I am in example component</h1>
+        <h1>I am in example component Patrick P Test</h1>
         <Button color="primary">Test of Material UI</Button>
       </div>
     );
