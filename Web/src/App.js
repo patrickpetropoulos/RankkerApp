@@ -6,7 +6,7 @@ import Example from "./components/example/Example";
 function App() {
   return (
     <div className="App">
-      <h1>This is my App title Again patrick test</h1>
+      <h1>This is my App title Again patrick test db</h1>
       <Example />
     </div>
   );
